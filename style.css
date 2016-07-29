@@ -1,0 +1,298 @@
+body {
+background: #000000;
+font-size: 0.8em;
+font-family: Arial;
+color: #530009;
+}
+
+body, h1, h2, h3, #header ul, #sidebar ul, #userbar form {
+padding: 0;
+margin: 0;
+}
+
+a {
+color: #000;
+}
+
+a img {
+border: 0;
+}
+
+p {
+	margin: 0;
+	padding: 11px;
+	text-align: center;
+}
+
+#container {
+width: 895px;
+padding: 0 35px 0 38px;
+margin: 0 auto;
+background: url('i/bg.gif') repeat-y;
+}
+
+/******************************************
+*******          HEADER                             *********
+******************************************/
+
+#header {
+height: 275px;
+background: url('i/header.jpg') no-repeat;
+}
+
+#userbar {
+height: 31px;
+line-height: 31px;
+color: #fff;
+}
+
+#userbar form {
+width: 490px;
+float: right;
+}
+
+#userbar label {
+padding: 0 2px 0 5px;
+font-size: 0.9em;
+}
+
+#userbar input {
+height: 18px;
+line-height: 18px;
+width: 130px;
+padding: 2px 6px;
+background: url('i/user-input.gif') no-repeat;
+border: 0;
+font-size: 0.9em;
+}
+
+#userbar input#login {
+width: 45px;
+height: 22px;
+padding: 0;
+background: url('i/user-login.gif') no-repeat;
+text-align: center;
+line-height: 22px;
+font-weight: bold;
+}
+
+#header h1, #header h1 a {
+height: 213px;
+display: block;
+}
+
+#header h1 span { display: none; }
+
+#header ul {
+list-style: none;
+height: 31px;
+overflow: hidden;
+padding-left: 7px;
+}
+
+#header ul li, #header ul li a {
+float: left;
+}
+
+#header ul li {
+padding-right: 8px;
+height: 31px;
+}
+
+#header ul li a {
+display: block;
+width: 103px;
+text-align: center;
+height: 27px;
+line-height: 27px;
+padding: 4px 0 0 0;
+background: url('i/nav.gif') no-repeat top;
+color: #fff;
+text-transform: uppercase;
+font-size: 0.8em;
+text-decoration: none;
+overflow: hidden;
+}
+
+#header ul li a:hover, #header ul li.active a {
+background-position: bottom;
+}
+
+/******************************************
+*******          MAIN                                 *********
+******************************************/
+
+#main {
+	float: right;
+	width: 675px;
+	text-align: left;
+}
+
+#main h2 {
+height: 26px;
+line-height: 26px;
+background: url('i/h2-main.gif') no-repeat;
+padding: 0 22px;
+font-size: 1.2em;
+color: #540000;
+font-weight: bold;
+}
+
+h2 span {
+color: #3d3a33;
+}
+
+#main h3 {
+height: 22px;
+line-height: 20px;
+background: url('i/h3-main.gif') no-repeat;
+padding: 0 11px;
+font-size: 1em;
+color: #fff;
+font-weight: bold;
+}
+
+#main h3 span {
+float: right;
+font-weight: normal;
+font-size: 0.9em;
+font-style: italic;
+}
+
+/******************************************
+*******          SIDEBAR                          *********
+******************************************/
+
+#sidebar {
+float: left;
+width: 220px;
+background: #530009;
+}
+
+#sidebar h2 {
+height: 26px;
+line-height: 26px;
+background: url('i/h2-sidebar.gif') no-repeat;
+padding: 0 22px;
+font-size: 1.2em;
+color: #540000;
+font-weight: bold;
+clear: both;
+}
+
+#roster {
+width: 219px;
+height: 190px;
+margin: 0 0 0 1px;
+overflow: hidden;
+background: url('i/roster.gif') no-repeat;
+}
+
+#roster .roster {
+width: 73px;
+float: left;
+height: 85px;
+padding: 10px 0 0 0;
+text-align: center;
+}
+
+#roster a {
+color: #fff;
+text-decoration: none;
+}
+
+#sidebar img {
+margin: 0 0 0 2px;
+display: block;
+}
+
+#roster img {
+margin: 0 auto;
+}
+
+#sidebar ul {
+list-style: none;
+}
+
+#sidebar ul li {
+height: 22px;
+line-height: 20px;
+font-size: 0.9em;
+color: #fff;
+background: url('i/server-list.gif') no-repeat;
+padding: 0 5px 0 7px;
+}
+
+#sidebar ul li span {
+float: left;
+display: block;
+width: 50px;
+}
+
+/******************************************
+*******          FOOTER                             *********
+******************************************/
+
+#footer {
+clear: both;
+}
+
+#footer a {
+display: block;
+height: 34px;
+line-height: 38px;
+text-align: right;
+background: url('i/footer.gif') no-repeat;
+overflow: hidden;
+padding: 0 12px;
+color: #fff9ea;
+text-decoration: none;
+}
+#container #sidebar .active p strong .active {
+	color: #FFF;
+}
+#container #sidebar .active .active {
+	color: #FFF;
+}
+#container #sidebar .active .active strong a {
+	color: #FFF;
+}
+#container #sidebar .active strong a {
+	color: #FFF;
+}
+#container #sidebar p strong a {
+	color: #FFF;
+}
+#container #sidebar p strong {
+	color: #FFF;
+}
+.texto_blog {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+}
+#container #main .post .texto_blog {
+	font-size: 10px;
+}
+text1 {
+	text-align: left;
+}
+#container #main .post .texto_blog {
+	text-align: left;
+}
+text1 {
+	font-family: Verdana, Geneva, sans-serif;
+}
+text1 {
+	font-size: 10px;
+}
+#container #main .post .texto_blog {
+	font-family: Verdana, Geneva, sans-serif;
+}
+#container #main .post .texto_blog {
+	font-size: 12px;
+}
+#container #main .post .texto_blog {
+	font-family: Arial, Helvetica, sans-serif;
+}
